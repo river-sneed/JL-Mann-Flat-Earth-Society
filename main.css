@@ -1,0 +1,17 @@
+body{
+    background-image: url("star-background.png");  
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000000; 
+}
+
+h1{ 
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+
+    
+}
+h2{ 
+    color: #ffffff
+}
