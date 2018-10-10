@@ -30,7 +30,6 @@ body{
 
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-   
     color: rgb(33, 149, 243);
 }
 
