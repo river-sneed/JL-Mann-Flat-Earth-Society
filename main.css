@@ -1,8 +1,19 @@
 body{
-    background-image: url("star-background.png");  
+    background-image: url("img/star-background.png");  
     background-attachment: fixed;
     background-position: center;
     background-color: #000000; 
+    
+}
+
+.watermark{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 10%;
+    margin: 0px;
+    padding: 14px;
+
 }
 
 /* Add a black background color to the top navigation bar */
@@ -19,7 +30,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -48,6 +59,40 @@ body{
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+}
+
+
+
+div.surprise {
+    background-image: url('img/downie.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position:fixed;
+    bottom: 0px;
+    right: -350px;
+    width: 400px;
+    height: 400px;
+    transition: bottom 2s, right 2s;
+}
+
+div.surprise:hover {
+    bottom: 0;
+    right: 0;
+}
+  
+img.arrow {
+    opacity: 0.5;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position:fixed;
+    bottom: 69px;
+    transition: opacity 2s;
+    width: 70px;
+    height: 70px;
+}
+  
+div.surprise:hover img.arrow {
+    opacity: 0.0;
 }
 
 h1{ 
