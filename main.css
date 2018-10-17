@@ -7,13 +7,9 @@ body{
 }
 
 .watermark{
-    position: fixed;
-    top: 0px;
-    right: 0px;
+    float: right;
     width: 10%;
-    margin: 0px;
-    padding: 14px;
-
+    
 }
 
 /* Add a black background color to the top navigation bar */

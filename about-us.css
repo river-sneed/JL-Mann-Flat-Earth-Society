@@ -1,17 +1,16 @@
 body{
     background-image: url("img/old-paper.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-color: #000000; 
     margin: 20px;
     padding: 14px;
 }
 
 .watermark{
-    position: fixed;
-    top: 0px;
-    right: 0px;
+    float: right;
     width: 10%;
-    margin: 0px;
-    padding: 14px;
+    
 }
 
 /* Add a black background color to the top navigation bar */
